@@ -20,8 +20,8 @@ public class MaximumSubArray {
             {
                 max_sum = cur_sum;   
             }
-            return max_sum;
         }
+        return max_sum;
     }
     public static void main(String[] args) {
         int[] num = {-2,1,-3,4,-1,2,1,-5,4};
